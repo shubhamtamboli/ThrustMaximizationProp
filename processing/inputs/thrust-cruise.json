@@ -1,0 +1,37 @@
+{
+    "optimization": {
+        "n_gen": 100,
+        "pop_size": 50,
+        "n_restarts": 1
+    },
+    "operatingConditions": {
+        "V": 20.0,
+        "rho": 1.225,
+        "rpm": 12000,
+        "maxPower": 50000.0,
+        "requiredThrust": 0.0,
+        "minEfficiency": 0.1
+    },
+    "geometryGlobal": {
+        "diameter": 0.30,
+        "bladeCount": 8,
+        "rStations": [
+            0.15,
+            0.24,
+            0.33,
+            0.42,
+            0.51,
+            0.60,
+            0.69,
+            0.78,
+            0.87,
+            0.98
+        ]
+    },
+    "geometryBounds": {
+        "chordMin": 0.05,
+        "chordMax": 0.15,
+        "pitchDegMin": 0.0,
+        "pitchDegMax": 40.0
+    }
+}
